@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-redux-async",
-  "version": "0.1.0",
-  "description": "React Redux with simple async action",
+  "name": "tinkerlist",
+  "version": "1.0.0",
+  "description": "Tinkerlist is a personal project to deal with the overhwhelming amount of playlists I have accumulated over time. The goal is to draw out my playlists via a Spotify API, and provide various functions like sort by genre or year. This should be able to be done via a web app.",
   "main": "server/index",
   "scripts": {
     "dev": "nodemon --watch server & webpack --watch",
@@ -56,5 +56,32 @@
     "nodemon": "^1.11.0",
     "supertest": "^3.0.0",
     "webpack-dev-server": "^2.4.5"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul-brabet/tinkerlist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paul-brabet/tinkerlist/issues"
+  },
+  "homepage": "https://github.com/paul-brabet/tinkerlist#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.8",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
