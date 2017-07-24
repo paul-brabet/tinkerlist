@@ -2,3 +2,21 @@
   color: red;
   font-weight: bold;
 }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35vh;
+}
+
+.title {
+  margin-right: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

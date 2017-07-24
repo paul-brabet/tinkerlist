@@ -4,8 +4,14 @@ import React from 'react'
 function Home () {
   return (
     <div>
-      <h1>Tinkerlist</h1>
-      {/* <Link to='./haventdecidedyet'>Login</Link> */}
+      <div className='header'>
+        <h1 className='title'>Tinkerlist</h1>
+        <img src='https://placekitten.com/149/149' alt='Placeholder kitty' />
+      </div>
+      <div className='login'>
+        <h2>Login</h2>
+        {/* <Link to='./haventdecidedyet'>Login</Link> */}
+      </div>
     </div>
   )
 }

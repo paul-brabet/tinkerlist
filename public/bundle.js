@@ -11079,9 +11079,23 @@ function Home() {
     'div',
     null,
     _react2.default.createElement(
-      'h1',
-      null,
-      'Tinkerlist'
+      'div',
+      { className: 'header' },
+      _react2.default.createElement(
+        'h1',
+        { className: 'title' },
+        'Tinkerlist'
+      ),
+      _react2.default.createElement('img', { src: 'https://placekitten.com/149/149', alt: 'Placeholder kitty' })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'login' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Login'
+      )
     )
   );
 }
