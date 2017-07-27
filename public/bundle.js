@@ -26545,6 +26545,9 @@ function showSpotifyLogin() {
   OAuth.popup('spotify').done(function (result) {
     // use result.access_token in API request
     console.log('Successful login methinks. Here is the result: ' + result);
+    result.me().done(function (data) {
+      console.log(data.name);
+    });
   }).fail(function (err) {
     console.log('Oops: ' + err);
   });
