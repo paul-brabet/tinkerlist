@@ -1,22 +1,28 @@
 .error {
-  color: red;
-  font-weight: bold;
+    color: red;
+    font-weight: bold;
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
 }
 
 .title {
-  margin-right: 1.5em;
-  letter-spacing: 0.1em;
+    margin-right: 1.5em;
+    letter-spacing: 0.1em;
 }
 
 .login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
