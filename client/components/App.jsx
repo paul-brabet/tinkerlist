@@ -2,6 +2,7 @@ import React from 'react'
 
 import Home from './Home'
 import Login from './Login'
+import Options from './Options'
 
 class App extends React.Component {
 

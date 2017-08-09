@@ -1,4 +1,5 @@
 import React from 'react'
+import Options from './Options'
 
 class Login extends React.Component {
 
@@ -21,12 +22,19 @@ class Login extends React.Component {
   }
 
   render() {
+    let greet
+    if (this.state.data.name !== undefined) {
+      greet = this.state.data.name
+    } else {
+      greet = null
+    }
     return (
       <div>
         <button data-provider='spotify' onClick={this.handleClick}>
           <img src='https://oauth.io/api/providers/spotify/logo' width='32' height='32' />
         </button>
-        <p>{this.state.data !== undefined ? this.state.data.name : null}</p>
+        <p>Hi {greet}</p>
+        // <p>{this.state.data !== undefined ? this.state.data.name : null}</p>
       </div>
     )
   }
